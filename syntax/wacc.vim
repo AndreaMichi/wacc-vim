@@ -14,7 +14,7 @@ syn keyword waccKeywords if then else fi while do done
 syn keyword waccKeywords free return exit print println if while nextgroup=waccExpr skipwhite
 syn keyword waccElem newpair fst snd pair
 
-syn match waccComment '#.*$'
+syn match waccComment '#.*$' "Wacc Comment
 syn match waccExpr '[-+]\?\d\+'  "Wacc Digit
 syn match waccExpr 'true\|false' "Wacc Bool
 syn match waccExpr '\'\.\'' "Wacc Char
