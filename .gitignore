@@ -1,0 +1,4 @@
+" List of extensions to ignore
+*.DS_Store
+*.swp
+*.backup
