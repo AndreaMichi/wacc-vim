@@ -17,10 +17,9 @@ syn match waccIdent '\h\(\h\|\d\)*' "Wacc Ident
 syn match waccExpr '[-+]\?\d\+'  "Wacc Digit
 syn match waccExpr 'true\|false' "Wacc Bool
 syn match waccExpr '\'\.\'' "Wacc Char
-syn match waccExpr '"\.*"' "Wacc String
 syn match waccExpr 'null' "Wacc PairLiter
 syn match waccOperator '!\|-\|len\|ord\|toInt' "Wacc Operator
-syn match waccOperator '\*\|\/\|%\|+\|-\|>\|>=\|<\|<=\|=' "Wacc Operator
+syn match waccOperator '\*\|\/\|%\|+\|-\|>\|>=\|<\|<=' "Wacc Operator
 syn match waccOperator '==\|!=\|&&\|||'
 
 " Keywords
